@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Criando imagens flexíveis</h1>
+    <a href="../ex003/imagens.html" target="_blank" rel="prev">Para relembrar sobre imagens</a>
+    <p>São imagens que se moldam sozinhas ao tamanhos da tela. Para fazer isso é preciso fazer o navegador carregar a imagem certa para cada situação. para isso, utilizam-se as tags <code>&lt;picture&gt;</code> e <code>&lt;source&gt;</code>.</p>
+    <p>As imagens utilizadas serão de 300x300, 700x700 e de 1000x1000. As imagens serão carregadas pelo navegador de acordo com o tamanho da janela atual</p>
+    <p>A tag <code>&lt;picture&gt;</code> vai concentrar as outras fontes de imagem, e a imagem grande (1000x1000) será carregada por padrão.</p>
+    <p><strong>É importante lembrar que existe uma ordem entre os <code>&lt;source&gt;</code>. Na configuração <code>max-width</code>, eles ficam em ordem crescente: o primeiro sendo o <em>menor</em> e o último, que é a imagem padrão, sendo a <em>maior</em></strong></p>
+    <h2>Imagem grande</h2>
+    <picture>
+        <img src="Imagens/imagem-g.png" alt="Imagem grande">
+    </picture>
+    <p><strong><mark>Essa imagem não muda de tamanho</mark></strong></p>
+    <br>
+    <hr>
+    <h2>Imagem média</h2>
+    <picture>
+        <source media="(max-width: 1050px)" srcset="Imagens/imagem-m.png" type="image/png">
+        <img src="Imagens/imagem-g.png" alt="Imagem grande">
+    </picture>
+    <p><strong><mark>Essa imagem muda somente para o tamanho médio</mark></strong></p>
+    <br>
+    <hr>
+    <h2>Imagem pequena</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/imagem-m.png" type="image/png">
+        <img src="Imagens/imagem-g.png" alt="Imagem grande">
+    </picture>
+    <p><strong><mark>Essa imagem muda de tamanho para a média e depois para a pequena</mark></strong></p>
+</body>
+</html>

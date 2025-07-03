@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Tipos de listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <!-- <ol> = Ordered list (lista ordenada); <li> = List item (item da lista)  -->
+    <p>A tag <code>&lt;ol&gt;</code> possui um parâmetro <code>type</code>, onde configuramos o tipo de marcador da lista atual.</p>
+        <ol>
+            <li type="1"><code>1</code> - Para listas numéricas</li>
+            <li type="A"><code>A</code> - Para listas alfabéticas maiúsculas</li>
+            <li type="a"><code>a</code> - Para listas alfabéticas minúsculas</li>
+            <li type="I"><code>I</code> - Para listas com algarismos romanos em maiùsculo</li>
+            <li type="i"><code>i</code> - Para listas em algarismos romanos minúsculos</li>
+        </ol>
+    <p>Há também o parâmetro <code>start</code>, onde configuramos em qual valor a lista iniciará a contagem.</p>
+        <ol start="5">
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+            <li>E</li>
+        </ol>
+    <hr>
+    <h2>Listas não ordenadas</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <!-- <ul> = unordered list (lista não ordenada) -->
+    <p>Assim como nas listas ordenadas, é possível configurar o marcador das listas não ordenadas. O marcador padrão é a bolinha preta totalmente preenchida, mas é possível muda-la com os seguintes valores</p>
+    <ul>
+        <li type="disc"><code>disc</code> - padrão. Bolinha preta</li>
+        <li type="circle"><code>circle</code> - Uma bola com borde preta e sem preenchimento</li>
+        <li type="square"><code>square</code> - Um pequeno quadrado preto</li>
+    </ul>
+    <hr>
+    <h2>Misturando as coisas</h2>
+    <p>Podemos também criar listas mistas</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ol type="a">
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li>Item 2.3</li>
+        </ol>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <p>Além de aninhar listas ordenadas, podemos juntar listas <code>&lt;ul&gt;</code> com <code>&lt;ol&gt;</code> e vice-versa. Por exemplo:</p>
+    <h3>Lista dos meus jogos favoritos</h3>
+    <ul>
+        <li>Nintendinho</li>
+        <ol>
+            <li>Mario Bros</li>
+            <ul type="square">
+                <li>Super Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+            <ul type="square">
+                <li> Ninja Gaiden III</li>
+            </ul>
+        </ol>
+        <li>Super Nintendo</li>
+        <ol>
+            <li>Super Mario World</li>
+            <li>Donkey Kong</li>
+            <ul type="square">
+                <li> Donkey Kong Country III</li>
+                <li>Diddy's Kong Quest</li>
+            </ul>
+        </ol>
+        <li>Playstation I</li>
+        <ol>
+            <li>Final Fantasy</li>
+            <ul type="square">
+                <li>Final Fantasy VII</li>
+                <li>Fantasy IX</li>
+            </ul>
+            <li>Castlevania</li>
+            <ul type="square">
+                <li>Simphony of the night</li>
+            </ul>
+        </ol>
+    </ul>
+    <hr>
+    <h2>Listas de definições</h2>
+    <p>É como se fosseum dicionário, temos os <em>termos</em> e suas <em>descrições</em></p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utilizada para criar o conteúdo em sites</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a especificação de estiços em sites</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criar interatividade em sites</dd>
+    </dl>
+    <!-- dl = Definition List; dt = Definition term; dd = Definition description -->
+</body>
+</html>

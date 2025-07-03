@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Links externos</h1>
+    <p>Para criar links, devemos criar âncoras através da <em>tag </em><code>&lt;a&gt;</code>. O pricipal <em>atributo</em> dessa <em>tag</em> é o <code>href</code> (hypertext reference), que cria uma referência para onde o link deve mandar</p>
+    <p>Você pode acessar o <a href="https://youtube.com">Youtube</a> através desse link</p>
+    <p>Outro <em>atributo</em> útil é o <code>hreflang</code>, que indica qual é o idioma principal do site para onde o link está  mandando</p>
+    <a href="https://www.w3school.com/html/" hreflang="en">Site da w3schools (em inglês)</a>
+    <hr>
+    <h1>Definindo alvos</h1>
+    <p>Por padrão, ao clicar em um hyperlink, o site de destino abre na mesma janela do site que contém o link, o que pode levar ao visitante do site nunca voltar. Para controlar onde o site de destino vai abrir, utiliza-se o <em>atributo</em> <code>target</code>, que suporta os seguintes valores:</p>
+    <ul>
+        <li><a href="https://youtube.com" target="_blank"><code>_blank</code></a> vai abrir o link em uma nova janela em branco</li>
+        <li><a href="https://youtube.com" target="_self"><code>_self</code></a> vai abrir o link na janela atual</li>
+        <li><a href="https://youtube.com" target="_top"><code>_top</code></a> Vai desfazer todos os frames e abrir o destino no navegador completo</li>
+        <li><a href="https://youtube.com" target="_parent"><code>_parent</code></a> similar ao uso do <code>_top</code> em uma refência à janela mãe</li>
+    </ul>
+    <p><mark>O uso de frames é uma técnica quase em desuso</mark></p>
+    <hr>
+    <h1>Indicando a natureza do destino</h1>
+    <p>Para indicar a natureza do destino, utiliza-se o atributo <code>rel</code>, que suporta os seguintes valores:</p>
+    <ul>
+        <li><code>next</code> indica que o link é para a próxima parte do documento atual</li>
+        <li><code>prev</code> indica que o link é para a parte anterior do documento atual</li>
+        <li><code>author</code> indica que é um link para o site do autor do artigo atual</li>
+        <li><code>external</code> indica que é um link para outro site que não faz parte do site atual</li>
+        <li><code>nofollow</code> indica que é um link para um site não endossado, como um link pago</li>
+    </ul>
+    <a href="https://youtube.com" target="_blank" rel="external">Youtube</a>
+    <hr>
+    <h1>Links internos</h1>
+    <p>Serve para navegar entre páginas dentro do seu próprio site. Basta colocar o nome do arquivo que deseja carregar</p>
+    <p>Essa é a primeira página do site. <a href="pag002.html" target="_self" rel="next">Clique aqui</a> para acessar a segunda página</p>
+    <p>Você ta,bém pode acessar nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a></p>
+    <hr>
+    <h1>Links para download</h1>
+    <p>Para colocar um link para download, basta fazer o link diretamente para o arquivo que se deseja efetuar o download e adicionar o atributo <code>download</code> com o valor configurado para o nome do arquivo a ser baixado e o atributo <code>type</code> para indicar ao navegador que tipo de arquivo está sendo baixado.</p>
+    <P><strong>*Se não colocar o atributo <code>download</code>, o link vai apenas abrir o arquivo</strong></P>
+    <ul>
+        <li><a href="PDF para teste/BLEACH VOL.01.pdf" type="application/pdf">Abra o arquivo aqui</a></li>
+        <li><a href="PDF para teste/BLEACH VOL.01.pdf" download="BLEACH VOL.01.pdf" type="application/pdf">Baixe o pdf aqui</a></li>
+        <li><a href="PDF para teste/PDF para teste.zip" download="PDF para teste.zip" type="application/zip">Baixe o arquivo compactado</a></li>
+    </ul>
+</body>
+</html>

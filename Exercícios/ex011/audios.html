@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="marca_do_sacrificio.ico" type="image/x-icon">
+    <title>Inserindo áudios</title>
+</head>
+<body>
+    <h1>Reproduzindo áudios</h1>
+    <p>É extremamente semelhante a forma de adicionar imagens dinâmicas, porém ao invés de utilizar a tag <code>&lt;picture&gt;</code>, utiliza-se a tag <code>&lt;audio&gt;</code>. <br>
+    A tag também possui atributos, e seus principais são: </p>
+    <ul>
+        <li><code>preload</code> - indica se o áudio será pré-carregado ou não e aceita três valores</li>
+        <ul>
+            <li><code>metadata</code> - Carrega apenas as informações sobre o arquivo (tamanho, tempo, informações de direitos, etc)</li>
+            <li><code>none</code> - Não vai aceitar carregar absolutamente nada até que o usuário clique no botão play ou um script inicie a reprodução</li>
+            <li><code>auto</code> (padrão) - Carrega o arquivo inteiro assim que a página for carregada. mesmo que o usuário não aperte no play</li>
+        </ul>
+        <li><code>controls</code> - Vai apresentar o player na tela. Caso não seja colocado na tag <code>&lt;audio&gt;</code>, o controle será tranparente e o usuário não poderá interagir</li>
+        <li><code>autoplay</code> - Vai reproduzir o ádio assim que a página for carregada</li>
+        <li><code>loop</code> - Vai fazer com que o áudio seja repetido eternamente</li>
+    </ul>
+    <audio preload="metadata" controls loop> 
+        <source src="midi/Happy Mistake - RKVC.mp3" type="audio/mpeg">
+        <source src="mida/Happy-Mistake-RKVC.ogg" type="audio/ogg">
+        <source src="miia/Happy-Mistake-RKVC.wav" type="audio/wav">
+        <p>Seu navegador não suporta o áudio, <a href="midia/Happy Mistake - RKVC.mp3" download="Happy-Mistake - RKVC.mp3" type="audio/mpeg">baixe o ádio MP3 clicando aqui</a></p>
+    </audio> 
+    <p>São adicionados vários <code>source</code> para que, caso um dos formatos falhe, o próximo será carregado. Caso todos falhem, é criado um parágrafo que permite o download do arquivo MP3 para ouvir no player padrão do dispositivo</p>
+    <hr>
+    <audio controls>
+        <source src="midia/Happy Mistake - RKVC.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

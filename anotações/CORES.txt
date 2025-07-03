@@ -1,0 +1,42 @@
+Anotações importantes sobre cores:
+
+Psicologia das cores: 
+    Diferentes cores podem nos passar diferentes emoções, como o amarelo, que remete a felicidade. 
+     As escolhas de compra que você faz estão intrinsecamente relacionadas as cores do produto, assim como as cores de um site vão fazer o usuário querer ficar por mais tempo ou não.
+    Nós, instintivamente, escolhemos sites ou produtos com mais harmonia com as cores. As pessoas, mesmo que achem uma combinação de cores bonita, geralmente não sabem dizer o motivo disso
+
+Por que marcas como facebook, linkedin ou intel usam as cores azul em suas logos?
+    As empresas de tecnologia escolhem muito o azul, pois essa cor tem ligação com alguns conceitos como competência, sabedoria, calma, confiança, integridade, segurança, etc. Além de ser a cor mais "aceita" entre a população. Aproximadamente 1% da população rejeita a cor azul.
+
+Harmonia de cores: Círculo cromático
+    É o que faz as pessoas acharem as cores bonitas mas não saber explicar o por quê.
+
+ Cores primárias: Amarelo, Vermelho, azul 
+    No círculo, elas formam um triângulo
+    Elas têm uma harmonia meio grosseira
+
+ Cores secundárias: Laranja, Violeta/Roxo, Verde
+    No círculo, elas formam um triângulo invertido
+    Também possuem uma harmonia meio grosseira, difícil de trabalhar
+
+    Cores terciárias: Todas as cores que estão entre uma cor primária e uma cor secundária. A forma como seu nome é escrito sempre será: NOME DA COR PRIMÁRIA - cor secundária.
+        AMARELO-esverdiado, AMARELO-alaranjado, VERMELHO, alaranjado, VERMELHO-arroxeado, AZUL-arroxeado, AZUL-esverdiado
+    No círculo elas formam uma hexágono
+
+Temperatura de cores:
+    Fazendo uma linha no círculo entre o amarelo e amarelo-esverdiado e o roxo e vermelho-arroxeado, é possível dividir as cores entre cores "quentes" e "frias".
+        As cores no lado esquerdo, que inclui os tons de verde, azul e roxo, são frias.
+        As cores no lado direito, que inclui os tons de amarelo, laranja e vermelho, são quentes.
+   
+Harmonia de cores:
+    Cores complementares - Cores que são opostas/possuem maior contraste no círculo cromático
+    Cores análogas - Cores vizinhas no círculo cromático
+    Cores análogas e uma complementar - autoexplicativo. Sempre gera uma palheta de 4 cores
+    Cores análogas relacionadas - Semelhante ás cores análoga. Duas cores vizinhas são selecionadas, mas para escolher uma terceira cor, ao invés de escolher outra cor vizinha, é pulada uma cor
+    Cores intercaladas - Ao invés de pular apenas em uma das cores, você pula uma cor para todas as cores que serão selecionadas
+        Cores triádicas - Os pulos são feitos de três em três cores
+        Cores em quadrado - Ao invés de pular três, pula Duas
+        Cores tetrádicas - Selecione duas cores e pegue seus opostos
+    Monocromia - Trabalha com apenas uma cor, alterando apenas a saturação e brilho
+    
+ *Pesquisar mais a fundo sobre o assunto

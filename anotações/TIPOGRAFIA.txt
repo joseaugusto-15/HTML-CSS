@@ -1,0 +1,48 @@
+Tipografia
+    O termo surgiu no século XV, quando surgiu a imprensa. Nessa época, como não existiam impressoras, pessoas tinham que escrever os livros. Algumas delas eram chamadas de "monges copistas", cuja a função era copiar livros à mão.
+    Foi em 1450 que Johannes Gutenberg, o pai da imprensa, inventou a "prensa mecânica", a primeira impressora.
+    Com surgimento da prensa, surgiu também a necessidade de criar letras/tipos mais fáceis de ler e com melhor aproveitamento de espaço. A tipografia surge dessa necessidade de melhorar a visualização das letras.
+    Tipografia vem do grego:
+        týpos = Impressão
+        graphía = Escrita
+
+Anatomia dos tipos   
+    Tipo = fonte 
+    Anatomia dos tipos são as "partes" da letra
+    Itens métricos:
+        A letra "x" minúscula é o ponto de partida da criação de qualquer fonte. Ela é usada para definir a altura base de todas as letras minúsculas. A altura é chamada de "altura-x".
+        Assim como exise a altura das minúsculas, proporcionalmente é criada a altura das letras maiúsculas, que é chamada de "altura das maiúsculas".
+        Outra altura que existe é referente ao "vazamento que algumas minúsculas têm da altura-x, como as letra "b" e "k". Essa altura é chamada de "ascendente".
+        Há também um "vazamento" para baixo, como ocorre com as letras "q" e "g", que é chamado de "descendente".
+        E por fim, a altura total da fonte, desde o descendente até a altura das maiúsculas, é chamada de "corpo".
+    Itens anatômicos:
+    geométricos:
+        SERIFA - É o "pezinho" que alguas fontes têm. Costumam aparecer justamente em letras q que possuem "pé", como o "A" e o "m". Nem todas as fontes possuem isso. Sua função é para criar uma linha imaginária que vai guiar nosso olho por ela, facilitando a leitura. 
+            Nosso cérebro não identifica uma palavra vendo letra por letra, a única coisa importante é a primeira e a última letra estejam no lugar correto. Isso é porque lemos as palavras como um todo.
+        HASTE - Nome meio autoexplicativo, mas basicamente são as colunas que compões as letras, sejam elas verticasi ou diagonais. O "k" possui apenas uma, o "A" possui duas.
+        FILETE - Linha que une duas hastes ou uma, ou mais, hastes e arcos, como por exemplo o traço no meio do "A" ou no "e".
+        ARCO - também autoexplicativo. Se as hastes são retas, os arcos são curvados.
+        ESPORÃO - Parece um "saltinho" que algumas letras têm. Serve para dar uma sensação de apoio na letra, para não parecer que ela vai cair.
+        VÉRTICE - São as dobras que algumas letras, como o "A" e o "v", têm.
+        TERMINAL - Como se fosse um filete, mas que não une duas hastes ou arcos. o "r" minúsculo é um exemplo.
+    corporais:
+        BRAÇOS - Uma estrutura qe sai da haste e se eleva, como na letra "k"
+        PERNA - Pode sair tanto da haste, quanto do braço, mas ao invés subir, ele desce.
+        PÉ - Literalmente o que está embaixo da perna. É onde geralmente ficam as serifas.
+        ESPINHA - Só o "s" tem isso. Diz respeito às voltinhas do S
+        BARRIGA - A junção de dois arcos. É o que o "b" tem.
+        OLHO - Área interna de uma letra quando essa letra é completamente fechada, tipo o "O"
+        ORELHA - É o tracinho que o "g" minúsculo as vezes tem saindo. Parece uma orelha.
+        CAUDA - É a parte descendente da fonte.
+
+    Glifo = letra
+    Cada uma das letras do alfabeto, sejam maiúsculas ou minúsculas, são glifos.
+    Quando eu pego todos os glifos de uma determinada família, é chamado de fonte.
+    Algumas fontes, além de modificar somente os glifos, podem ter diferentes formas de representar o mesmo glifo. Isso é chamado de família tipográfica.
+
+    Categorias de fontes:
+        Fontes serifadas - Tem serifa.
+        Fontes sans-serif - Não tem serifa.
+        Fontes monoespaçadas - Todas as letras ocupam o mesmo espaço lateral.
+        Fontes handwriting/scriptada - Tenta simular a escrita à mão
+        Fontes comemorativas/display - É bagunça. Não se encaixa em nenhuma das regras acima.
